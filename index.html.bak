@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Image Resizer</title>
+</head>
+<body>
+<header class="header">
+  <div class="container text-center">
+    <h1 class="display-4">Deserts Shop!</h1>
+    <p class="lead">Stressed spelled backward is desserts.</p>
+  </div>
+</header>
+<div class="container">
+  
+
+  <div class="row">
+    <!-- Repeat the following code block for each image -->
+    <div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img1.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+    <!-- End of code block -->
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img2.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img3.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img4.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img5.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img6.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img7.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img8.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img9.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-4">
+      <div class="image-container">
+        <img src="img0.jpg" alt="Image 1" class="resizable-image">
+        <div class="center-icon">
+          <img src="icon.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+    <!-- Repeat for other images... -->
+
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
